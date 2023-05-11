@@ -1,0 +1,59 @@
+G: Viagem Joao
+A: Manuel
+A: Joana
+A: Tiago
+A: Dinis
+A: Teresa
+E: Bilhetes Joao 543200
+E: Hotel Teresa 350000
+E: Transfer Manuel 15000
+E: Jantar Dinis 8000 0.0,0.0,0.25,0.25,0.25,0.25
+E: Jantar Joao 5500 0.5,0.5,0.0,0.0,0.0,0.0
+BG
+S: Teresa
+BG
+G: Madrid Anabela
+A: Manuel
+A: Joana
+A: Dinis
+E: Comboio Joana 20499
+E: Hotel Manuel 60587
+E: Bolt Anabela 1687
+BG
+S: Anabela
+BG
+E: Almoço Dinis 12355 
+E: Jantar Manuel 750 0.5,0.5,0.0,0.0
+E: Teatro Dinis 800
+BG
+S: Anabela
+S: Joana
+S: Dinis
+BG
+G: Casa Joao
+A: Maria
+E: Renda Joao 60000 0.55,0.45
+E: Luz Maria 4000
+E: Agua Maria 2500
+E: Telecomunicações Maria 3000
+E: Supermercado Maria 20000
+BG
+E: Carro Maria 30000
+E: Gas Joao 8000
+E: Limpeza Maria 5000
+BG
+S: Joao
+BG
+E: Renda Joao 60000 0.55,0.45
+E: Luz Maria 4000
+E: Agua Maria 2500
+E: Telecomunicações Maria 3000
+E: Supermercado Maria 20000
+BG
+S: Maria
+BG
+B: Tiago
+B: Dinis
+B: Teresa
+B: Joao
+B: Maria

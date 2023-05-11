@@ -1,0 +1,473 @@
+O User: Joana criou o grupo: Grupo1
+O User: Gabriel foi adicionado ao grupo Grupo1
+O User: Maria foi adicionado ao grupo Grupo1
+O User: Gabriel pagou Bilhetes Cinema no total de: 3790
+	 | Joana deve 1264
+	 | Gabriel é devido 2527 (1263)
+	 | Maria deve 1263
+
+============ Balanço Geral do Grupo ============
+Joana deve 1264
+Gabriel é devido 2527
+Maria deve 1263
+
+----> Resumo para Joana
+	Deve 1264 a Gabriel
+
+----> Resumo para Gabriel
+	Joana deve-lhe 1264
+	Maria deve-lhe 1263
+
+----> Resumo para Maria
+	Deve 1263 a Gabriel
+
+===============================================
+O User: Joana pagou Jantar no total de: 6900
+	 | Joana é devido 4600 (2300)
+	 | Gabriel deve 2300
+	 | Maria deve 2300
+
+============ Balanço Geral do Grupo ============
+Joana é devido 3336
+Gabriel é devido 227
+Maria deve 3563
+
+----> Resumo para Joana
+	Gabriel deve-lhe 1036
+	Maria deve-lhe 2300
+
+----> Resumo para Gabriel
+	Maria deve-lhe 1263
+	Deve 1036 a Joana
+
+----> Resumo para Maria
+	Deve 2300 a Joana
+	Deve 1263 a Gabriel
+
+===============================================
+O User: Maria pagou Pipocas no total de: 1000
+	 | Joana deve 334
+	 | Gabriel deve 333
+	 | Maria é devido 667 (333)
+
+============ Balanço Geral do Grupo ============
+Joana é devido 3002
+Gabriel deve 106
+Maria deve 2896
+
+----> Resumo para Joana
+	Gabriel deve-lhe 1036
+	Maria deve-lhe 1966
+
+----> Resumo para Gabriel
+	Maria deve-lhe 930
+	Deve 1036 a Joana
+
+----> Resumo para Maria
+	Deve 1966 a Joana
+	Deve 930 a Gabriel
+
+===============================================
+
+O User: Gabriel liquidou as suas dividas
+
+----> Resumo para Gabriel
+	Maria deve-lhe 930
+
+Gabriel, é lhe devido 930 no total.
+O User: Joao criou o grupo: Viagem
+O User: Manuel foi adicionado ao grupo Viagem
+O User: Joana foi adicionado ao grupo Viagem
+O User: Tiago foi adicionado ao grupo Viagem
+O User: Dinis foi adicionado ao grupo Viagem
+O User: Teresa foi adicionado ao grupo Viagem
+O User: Joao pagou Bilhetes no total de: 543200
+	 | Joao é devido 452666 (90534)
+	 | Manuel deve 90534
+	 | Joana deve 90533
+	 | Tiago deve 90533
+	 | Dinis deve 90533
+	 | Teresa deve 90533
+O User: Teresa pagou Hotel no total de: 350000
+	 | Joao deve 58334
+	 | Manuel deve 58334
+	 | Joana deve 58333
+	 | Tiago deve 58333
+	 | Dinis deve 58333
+	 | Teresa é devido 291667 (58333)
+O User: Manuel pagou Transfer no total de: 15000
+	 | Joao deve 2500
+	 | Manuel é devido 12500 (2500)
+	 | Joana deve 2500
+	 | Tiago deve 2500
+	 | Dinis deve 2500
+	 | Teresa deve 2500
+O User: Dinis pagou Jantar no total de: 8000
+	 | Joao não participou
+	 | Manuel não participou
+	 | Joana deve 2000
+	 | Tiago deve 2000
+	 | Dinis é devido 6000 (2000)
+	 | Teresa deve 2000
+O User: Joao pagou Jantar no total de: 5500
+	 | Joao é devido 2750 (2750)
+	 | Manuel deve 2750
+	 | Joana não participou
+	 | Tiago não participou
+	 | Dinis não participou
+	 | Teresa não participou
+
+============ Balanço Geral do Grupo ============
+Joao é devido 394582
+Manuel deve 139118
+Joana deve 153366
+Tiago deve 153366
+Dinis deve 145366
+Teresa é devido 196634
+
+----> Resumo para Joao
+	Manuel deve-lhe 90784
+	Joana deve-lhe 90533
+	Tiago deve-lhe 90533
+	Dinis deve-lhe 90533
+	Teresa deve-lhe 32199
+
+----> Resumo para Manuel
+	Joana deve-lhe 2500
+	Tiago deve-lhe 2500
+	Dinis deve-lhe 2500
+	Deve 90784 a Joao
+	Deve 55834 a Teresa
+
+----> Resumo para Joana
+	Deve 90533 a Joao
+	Deve 2500 a Manuel
+	Deve 2000 a Dinis
+	Deve 58333 a Teresa
+
+----> Resumo para Tiago
+	Deve 90533 a Joao
+	Deve 2500 a Manuel
+	Deve 2000 a Dinis
+	Deve 58333 a Teresa
+
+----> Resumo para Dinis
+	Joana deve-lhe 2000
+	Tiago deve-lhe 2000
+	Deve 90533 a Joao
+	Deve 2500 a Manuel
+	Deve 56333 a Teresa
+
+----> Resumo para Teresa
+	Manuel deve-lhe 55834
+	Joana deve-lhe 58333
+	Tiago deve-lhe 58333
+	Dinis deve-lhe 56333
+	Deve 32199 a Joao
+
+===============================================
+
+O User: Teresa liquidou as suas dividas
+
+============ Balanço Geral do Grupo ============
+Joao é devido 362383
+Manuel deve 139118
+Joana deve 153366
+Tiago deve 153366
+Dinis deve 145366
+Teresa é devido 228833
+
+----> Resumo para Joao
+	Manuel deve-lhe 90784
+	Joana deve-lhe 90533
+	Tiago deve-lhe 90533
+	Dinis deve-lhe 90533
+
+----> Resumo para Manuel
+	Joana deve-lhe 2500
+	Tiago deve-lhe 2500
+	Dinis deve-lhe 2500
+	Deve 90784 a Joao
+	Deve 55834 a Teresa
+
+----> Resumo para Joana
+	Deve 90533 a Joao
+	Deve 2500 a Manuel
+	Deve 2000 a Dinis
+	Deve 58333 a Teresa
+
+----> Resumo para Tiago
+	Deve 90533 a Joao
+	Deve 2500 a Manuel
+	Deve 2000 a Dinis
+	Deve 58333 a Teresa
+
+----> Resumo para Dinis
+	Joana deve-lhe 2000
+	Tiago deve-lhe 2000
+	Deve 90533 a Joao
+	Deve 2500 a Manuel
+	Deve 56333 a Teresa
+
+----> Resumo para Teresa
+	Manuel deve-lhe 55834
+	Joana deve-lhe 58333
+	Tiago deve-lhe 58333
+	Dinis deve-lhe 56333
+
+===============================================
+O User: Anabela criou o grupo: Madrid
+O User: Manuel foi adicionado ao grupo Madrid
+O User: Joana foi adicionado ao grupo Madrid
+O User: Dinis foi adicionado ao grupo Madrid
+O User: Joana pagou Comboio no total de: 20499
+	 | Anabela deve 5125
+	 | Manuel deve 5125
+	 | Joana é devido 15374 (5125)
+	 | Dinis deve 5124
+O User: Manuel pagou Hotel no total de: 60587
+	 | Anabela deve 15147
+	 | Manuel é devido 45440 (15147)
+	 | Joana deve 15147
+	 | Dinis deve 15146
+O User: Anabela pagou Bolt no total de: 1687
+	 | Anabela é devido 1265 (422)
+	 | Manuel deve 422
+	 | Joana deve 422
+	 | Dinis deve 421
+
+============ Balanço Geral do Grupo ============
+Anabela deve 19007
+Manuel é devido 39893
+Joana deve 195
+Dinis deve 20691
+
+----> Resumo para Anabela
+	Dinis deve-lhe 421
+	Deve 14725 a Manuel
+	Deve 4703 a Joana
+
+----> Resumo para Manuel
+	Anabela deve-lhe 14725
+	Joana deve-lhe 10022
+	Dinis deve-lhe 15146
+
+----> Resumo para Joana
+	Anabela deve-lhe 4703
+	Dinis deve-lhe 5124
+	Deve 10022 a Manuel
+
+----> Resumo para Dinis
+	Deve 421 a Anabela
+	Deve 15146 a Manuel
+	Deve 5124 a Joana
+
+===============================================
+
+O User: Anabela liquidou as suas dividas
+
+============ Balanço Geral do Grupo ============
+Anabela é devido 421
+Manuel é devido 25168
+Joana deve 4898
+Dinis deve 20691
+
+----> Resumo para Anabela
+	Dinis deve-lhe 421
+
+----> Resumo para Manuel
+	Joana deve-lhe 10022
+	Dinis deve-lhe 15146
+
+----> Resumo para Joana
+	Dinis deve-lhe 5124
+	Deve 10022 a Manuel
+
+----> Resumo para Dinis
+	Deve 421 a Anabela
+	Deve 15146 a Manuel
+	Deve 5124 a Joana
+
+===============================================
+O User: Dinis pagou Almoço no total de: 12355
+	 | Anabela deve 3089
+	 | Manuel deve 3089
+	 | Joana deve 3089
+	 | Dinis é devido 9267 (3088)
+O User: Manuel pagou Jantar no total de: 750
+	 | Anabela deve 375
+	 | Manuel é devido 375 (375)
+	 | Joana não participou
+	 | Dinis não participou
+O User: Dinis pagou Teatro no total de: 800
+	 | Anabela deve 200
+	 | Manuel deve 200
+	 | Joana deve 200
+	 | Dinis é devido 600 (200)
+
+============ Balanço Geral do Grupo ============
+Anabela deve 3243
+Manuel é devido 22254
+Joana deve 8187
+Dinis deve 10824
+
+----> Resumo para Anabela
+	Deve 375 a Manuel
+	Deve 2868 a Dinis
+
+----> Resumo para Manuel
+	Anabela deve-lhe 375
+	Joana deve-lhe 10022
+	Dinis deve-lhe 11857
+
+----> Resumo para Joana
+	Dinis deve-lhe 1835
+	Deve 10022 a Manuel
+
+----> Resumo para Dinis
+	Anabela deve-lhe 2868
+	Deve 11857 a Manuel
+	Deve 1835 a Joana
+
+===============================================
+
+O User: Anabela liquidou as suas dividas
+
+O User: Joana liquidou as suas dividas
+
+O User: Dinis liquidou as suas dividas
+
+============ Balanço Geral do Grupo ============
+Anabela tem as contas liquidadas globalmente
+Manuel tem as contas liquidadas globalmente
+Joana tem as contas liquidadas globalmente
+Dinis tem as contas liquidadas globalmente
+
+----> Resumo para Anabela
+	Contas Liquidadas
+
+----> Resumo para Manuel
+	Contas Liquidadas
+
+----> Resumo para Joana
+	Contas Liquidadas
+
+----> Resumo para Dinis
+	Contas Liquidadas
+
+===============================================
+O User: Joao criou o grupo: Casa
+O User: Maria foi adicionado ao grupo Casa
+O User: Joao pagou Renda no total de: 60000
+	 | Joao é devido 27000 (33000)
+	 | Maria deve 27000
+O User: Maria pagou Luz no total de: 4000
+	 | Joao deve 2000
+	 | Maria é devido 2000 (2000)
+O User: Maria pagou Agua no total de: 2500
+	 | Joao deve 1250
+	 | Maria é devido 1250 (1250)
+O User: Maria pagou Telecomunicações no total de: 3000
+	 | Joao deve 1500
+	 | Maria é devido 1500 (1500)
+O User: Maria pagou Supermercado no total de: 20000
+	 | Joao deve 10000
+	 | Maria é devido 10000 (10000)
+
+============ Balanço Geral do Grupo ============
+Joao é devido 12250
+Maria deve 12250
+
+----> Resumo para Joao
+	Maria deve-lhe 12250
+
+----> Resumo para Maria
+	Deve 12250 a Joao
+
+===============================================
+O User: Maria pagou Carro no total de: 30000
+	 | Joao deve 15000
+	 | Maria é devido 15000 (15000)
+O User: Joao pagou Gas no total de: 8000
+	 | Joao é devido 4000 (4000)
+	 | Maria deve 4000
+O User: Maria pagou Limpeza no total de: 5000
+	 | Joao deve 2500
+	 | Maria é devido 2500 (2500)
+
+============ Balanço Geral do Grupo ============
+Joao deve 1250
+Maria é devido 1250
+
+----> Resumo para Joao
+	Deve 1250 a Maria
+
+----> Resumo para Maria
+	Joao deve-lhe 1250
+
+===============================================
+
+O User: Joao liquidou as suas dividas
+
+============ Balanço Geral do Grupo ============
+Joao tem as contas liquidadas globalmente
+Maria tem as contas liquidadas globalmente
+
+----> Resumo para Joao
+	Contas Liquidadas
+
+----> Resumo para Maria
+	Contas Liquidadas
+
+===============================================
+O User: Joao pagou Renda no total de: 60000
+	 | Joao é devido 27000 (33000)
+	 | Maria deve 27000
+O User: Maria pagou Luz no total de: 4000
+	 | Joao deve 2000
+	 | Maria é devido 2000 (2000)
+O User: Maria pagou Agua no total de: 2500
+	 | Joao deve 1250
+	 | Maria é devido 1250 (1250)
+O User: Maria pagou Telecomunicações no total de: 3000
+	 | Joao deve 1500
+	 | Maria é devido 1500 (1500)
+O User: Maria pagou Supermercado no total de: 20000
+	 | Joao deve 10000
+	 | Maria é devido 10000 (10000)
+
+============ Balanço Geral do Grupo ============
+Joao é devido 12250
+Maria deve 12250
+
+----> Resumo para Joao
+	Maria deve-lhe 12250
+
+----> Resumo para Maria
+	Deve 12250 a Joao
+
+===============================================
+
+O User: Maria liquidou as suas dividas
+
+============ Balanço Geral do Grupo ============
+Joao tem as contas liquidadas globalmente
+Maria tem as contas liquidadas globalmente
+
+----> Resumo para Joao
+	Contas Liquidadas
+
+----> Resumo para Maria
+	Contas Liquidadas
+
+===============================================
+
+Tiago deve 153366 no total.
+
+Dinis deve 145366 no total.
+
+Teresa, é lhe devido 228833 no total.
+
+Joao, é lhe devido 362383 no total.
+
+Maria: Contas Totalmente Liquidadas
